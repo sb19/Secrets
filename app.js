@@ -40,7 +40,7 @@ app.use(passport.session());
 
 //mongodb atlas connection
 mongoose.connect(
-  "mongodb+srv://shubham:19091995@cluster0.3x7kg.mongodb.net/SecretsDB?retryWrites=true&w=majority",
+  "mongodb+srv://shubham:<password>@cluster0.3x7kg.mongodb.net/SecretsDB?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true }
 );
 mongoose.set("useCreateIndex",true);
